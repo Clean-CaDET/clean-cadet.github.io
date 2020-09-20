@@ -27,6 +27,11 @@ $ cd clean-cadet.github.io/
 $ bundle install
 ```
 
+If some errors happen, try this before running the install command:  
+```shell script
+$ sudo gem update --system
+```
+
 4. Start Jekyll server:
 ```shell script
 $ bundle exec jekyll serve
