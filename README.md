@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="/images/ccadet_text.png" alt="Clean CaDET"/>
+  <img src="/img/ccadet_text.png" alt="Clean CaDET"/>
 </h1>
 
 Repository for the Clean CaDET website, alive at [https://clean-cadet.github.io/](https://clean-cadet.github.io/). 
