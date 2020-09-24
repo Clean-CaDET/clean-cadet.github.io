@@ -101,7 +101,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 40px 0 50px 0;
   position: relative;
 }
 #slider:before {
@@ -125,7 +125,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
-  padding-bottom: 45px;
+  padding-bottom: 20px;
 }
 #slider .block p {
   font-size: 23px;
@@ -138,7 +138,10 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 50px 0;
+  text-align: center;
+  align-content: center;
+
 }
 #intro .block h2 {
   padding-top: 35px;
