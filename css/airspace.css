@@ -139,10 +139,14 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #intro {
   padding: 50px 0;
-  text-align: center;
-  align-content: center;
 
 }
+
+#intro #vision{
+  align-content: center;
+  text-align: center;
+}
+
 #intro .block h2 {
   padding-top: 35px;
   line-height: 27px;
@@ -363,8 +367,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   position: relative;
   background-attachment: fixed;
 }

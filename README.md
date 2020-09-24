@@ -5,7 +5,7 @@
 
 Repository for the Clean CaDET website, alive at [https://clean-cadet.github.io/](https://clean-cadet.github.io/). 
 
-Website is based on the [Reverie](https://github.com/amitmerchant1990/reverie), an elegant [Jekyll](https://jekyllrb.com/) theme.
+Website is based on the [Airspace Jekyll theme](https://jekyllthemes.io/theme/airspace-jekyll).
 
 ## Local development setup
 
