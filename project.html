@@ -4,14 +4,14 @@ title: Clean CaDET - Project
 permalink: /project/
 ---
 
-    <!-- Slider Start -->
+<!-- Slider Start -->
 <section id="global-header">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1>Just some of our latest projects.</h1>
-                    <p>Don’t just take our word for it. Check out some of our latest work.</p>
+                    <h1>Clean CaDET</h1>
+                    <p>Project by The Science Fund of the Republic of Serbia</p>
                 </div>
             </div>
         </div>
@@ -21,98 +21,43 @@ permalink: /project/
 <section id="portfolio-work">
     <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="block">
-              <div class="portfolio-menu">
-                <ul>
-                    <li class="filter" data-filter="all">Everything</li>
-                    <li class="filter" data-filter=".Branding">Branding</li>
-                    <li class="filter" data-filter=".Websites">Websites</li>
-                    <li class="filter" data-filter=".Graphic">Graphic</li>
-                    <li class="filter" data-filter=".design">design</li>
-                    <li class="filter" data-filter=".Video">Video</li>
-                </ul>
-              </div>
-              <div class="portfolio-contant">
-                <ul id="portfolio-contant-active">
-                    <li class="mix Branding">
-                      <a href="#">
-                        <img src="{{ site.baseurl }}/img/portfolio/work1.jpg" alt="">
-                        <div class="overly">
-                          <div class="position-center">
-                            <h2>Tesla Motors</h2>
-                            <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                          </div>
-                        </div>
-                      </a>
-                  </li>
-                  <li class="mix Websites">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work2.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mix Graphic">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work3.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                        </div>
-                      </div>
-
-                    </a>
-                  </li>
-                  <li class="mix design">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work4.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mix Video">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work5.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="mix Graphic">
-                    <a href="#">
-                      <img src="{{ site.baseurl }}/img/portfolio/work6.jpg" alt="">
-                      <div class="overly">
-                        <div class="position-center">
-                          <h2>Tesla Motors</h2>
-                          <p>Labore et dolore magna aliqua. Ut enim ad </p>
-
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div class="section-title">
+            <h2 id="project">Our Project</h2>
           </div>
         </div>
+        <div class="row">
+            <p>The main objective of this project is to lower the cost of software development and increase its overall quality.
+                We shall address this objective by utilizing artificial intelligence (AI) algorithms to detect code smells in software code.
+                We shall encapsulate the AI algorithms in a usable open-source tool, to support software developers in their work and help them discover unclean code as they write it.
+                We shall supplement the detection mechanism with educational resources to help the developer understand the nature of the smell and the best way to resolve it.
+                Finally, we shall enhance the tool with an AI-based tutoring system, to offer personalized advice and educational material to the developer and ensure their efficient learning.
+                We call the proposed tool the Clean Code and Design Educational Tool (Clean CaDET). <br>
+                For Clean CaDET to effectively fulfill the main objective of the project, multiple sub-objectives need to be reached, each tackling a specific research problem:</p>
+            <p>
+                <ol>
+                    <li>Develop a set of automatic AI-based code smell detection techniques, addressing the most widespread and severe code smells.</li>
+                    <li>Collect a novel dataset of software artifacts for training AI-based code smell detection algorithms.</li>
+                    <li>Develop an AI-based educational system for delivering personalized multimedia to the learner, detailing the nature and impact of the smell, as well as the recommended refactoring solution.</li>
+                    <li>Develop a usable open-source tool, integrating the developed detection techniques and educational system, to offer automatic smell detection on custom code and learning material recommendation.</li>
+                </ol>
+            </p>
+            <p>The purpose of Clean CaDET is to automatically detect code smells in the developer’s code and offer personalized advice on how best to deal with the detected smells, thus training the developer to write code of higher quality.
+                Figure below displays the conceptual vision of Clean CaDET and represents a communication diagram illustrating the interaction between the major modules of the tool and the software developer.</p>
+            <br>
+            <br>
+            <img src="{{ site.baseurl }}/img/rsz_ccadet_model.png" alt="Clean CaDET conceptual overview">
+            <br>
+            <br>
+            <p>The Developer uses their integrated development environment (IDE) to write code (1) for their software solution.
+                The Clean CaDET Plugin (C2Plugin) processes the code and sends its representation (2) to the remote Clean CaDET Application (C2Application).
+                The Clean Code Analyzer module executes a series of AI-based smell detection techniques to detect different code smells in the developed code.
+                The Clean Code Analyzer also contains a dataset of software artifacts, used to train the AI-based smell detection techniques.
+                Then, the Analyzer sends the discovered code smells (3) to the Smart Tutor module.
+                This module represents an AI-based educational system that personalizes the learning experience using a recommender system.
+                It selects the most suitable content (e.g., text, illustration, video) from the repository of educational material to facilitate the Developer’s learning.
+                Once selected, Clean CaDET returns the educational multimedia (4) to the C2Plugin, which displays the information to the Developer (5).</p>
+        </div>
+
     </div>
 </section>
 
@@ -124,40 +69,13 @@ permalink: /project/
         <div class="block">
           <div id="clients-logo" class="owl-carousel">
             <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo1.png" alt="Features">
+              <a href="https://www.uns.ac.rs/index.php/en/"><img src="{{ site.baseurl }}/img/organizations/uns-logo.jpg" alt="University of Novi Sad"></a>
             </div>
             <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo2.png" alt="Features">
+              <a href="http://ftn.uns.ac.rs/n1386094394/faculty-of-technical-sciences"><img src="{{ site.baseurl }}/img/organizations/ftn-logo.png" alt="Faculty of Technical Sciences"></a>
             </div>
             <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo3.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo4.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo5.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo3.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo2.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo5.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo1.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo4.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo5.png" alt="Features">
-            </div>
-            <div class="clients-logo-img">
-              <img src="{{ site.baseurl }}/img/clients/clients-logo3.png" alt="Features">
+              <a href="http://fondzanauku.gov.rs/?lang=en"><img src="{{ site.baseurl }}/img/organizations/fzn-logo.png" alt="The Science Fund of the Republic of Serbia"></a>
             </div>
           </div>
         </div>
