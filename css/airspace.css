@@ -49,7 +49,7 @@ a:active {
   text-decoration: none !important;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .section-title h2 {
   text-transform: uppercase;
@@ -171,7 +171,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding: 50px 0;
 }
 #service .service-item {
   padding-bottom: 30px;
