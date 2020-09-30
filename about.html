@@ -10,8 +10,8 @@ permalink: /about/
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1>About Us</h1>
-                    <p>The people behind Clean CaDET project</p>
+                    <h1 class="animated fadeInUp">About Us</h1>
+                    <p class="animated fadeInUp">The people behind Clean CaDET project</p>
                 </div>
             </div>
         </div>
@@ -31,12 +31,19 @@ permalink: /about/
     <div class="row">
         {% for p in site.data.people %}
             <div>
-                <div class="user">
+                <div class="user text-center">
                   <img src="../{{ p.image }}" alt="People">
-                  <p><span>{{ p.name }}</span> <br> {{ p.title }}<p>
+                    <p><span><b>{{ p.name }}</b></span> <br> <i>{{ p.title }}</i><p>
                 </div>
-                <p>{{ p.about }}</p>
-                <img src="../img/cotation.png" alt="IMG">
+                <p class="about">{{ p.about }}</p>
+                <ul class="social-icons text-center">
+                    <li>
+                      <a href="{{ p.linkedin }}"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="{{ p.researchgate }}"><i class="researchgate"></i></a>
+                    </li>
+                </ul>
                 <hr/>
             </div>
         {% endfor %}

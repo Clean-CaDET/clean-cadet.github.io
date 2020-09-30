@@ -1,28 +1,42 @@
 - name: Dr Jelena Slivka
   title: Principal Investigator
-  image: img/item-img1.jpg
+  image: img/people/jelena_slivka.jpg
+  linkedin: https://www.linkedin.com/in/jelena-slivka-a9b80a6/
+  researchgate: https://www.researchgate.net/profile/Jelena_Slivka
   about: "Has research experience in the domain of data science, machine learning, and data mining. Through developing her Ph.D. thesis, she has focused on improving the performance of multi-view semi-supervised learning techniques. Thus, she has direct experience in applying AI-based techniques we proposed in the project methodology for tackling the problem of smell detection. Furthermore, she has published papers on the use of SSL to address the issue of limited data available for training a recommender system. Thus, she will be able to supervise and participate in the efforts of employing AI for building the educational RS. Finally, Jelena Slivka is a professor on several AI courses at the Faculty of Technical Sciences, that cover the domain of machine learning and data mining. As a researcher and teacher in the field of data mining, she will also be able to guide the efforts for building a novel dataset of software artifacts."
 - name: Dr Nikola Luburić
   title: Participant 1
-  image: img/item-img1.jpg
+  image: img/people/nikola_luburic.jpg
+  linkedin: https://www.linkedin.com/in/nikola-luburic/
+  researchgate: https://www.researchgate.net/profile/Nikola_Luburic
   about: "Has research, teaching, and industrial experience in the domain of software development. As part of his Ph.D. thesis, he has researched and published novel teaching methods that improve the quality of student learning of specialized software development techniques. Through this research, he has obtained enough experience to guide and assist the development of an educational tool that is both student-friendly and achieves high-quality learning outcomes. As the planned professor for the two software engineering courses that cover software code quality and smells, he will organize and guide the interaction between the research team and the students. He will also lead the efforts of empirically evaluating the usability and efficiency of Clean CaDET and its educational RS through the courses’ laboratory exercises. Finally, due to his experience in teaching and building high-quality code, his job will be to develop the Clean CaDET platform and assist team members with AI expertise in understanding code quality and smells."
 - name: Dragan Vidaković
   title: Participant 2
-  image: img/item-img1.jpg
+  image: img/people/dragan_vidakovic.jpg
+  linkedin: https://www.linkedin.com/in/draganvidakovic/
+  researchgate: https://www.researchgate.net/profile/Dragan_Vidakovic
   about: "Is a Ph.D. researcher with research, teaching, and industrial experience in machine learning, deep learning, and data mining. As an Academic Visitor at Rice University in Houston, he was a part of the research team that was developing an intelligent tutor. As part of this research, he used deep learning to generate knowledge assessment questions automatically. As a teaching assistant on a course covering machine learning, he has also developed an educational platform to facilitate more efficient learning. Through this combined experience, he will be able to lead the development of the educational RS. As part of his collaboration with Ava, he has gained industrial experience in researching and applying various machine learning and deep learning algorithms on vast amounts of data. This experience will help the team construct code smell detection techniques."
 - name: Dr Aleksandar Kovačević
   title: Participant 3
-  image: img/item-img1.jpg
+  image: img/people/aleksandar_kovacevic.jpg
+  linkedin: https://www.linkedin.com/
+  researchgate: https://www.researchgate.net/profile/Aleksandar_Kovacevic2
   about: "Has a rich experience in the domain of data mining, text mining, machine learning, and artificial intelligence. During his postdoctoral research, he established a long-standing international collaboration with the Department of Computer Science at the University of Manchester. This collaboration resulted in winning the top places in international NLP challenges. His responsibility in the challenges was to apply ML and AI in NLP. His experience will be invaluable for using these techniques in the context of building an AI approach for smell detection. Finally, Aleksandar Kovačević is a professor on several AI university courses, covering the domain of general artificial intelligence and data mining. As educators and participants in a national and international project tackling the problems of e-learning, PI and P3 can give input on collecting and annotating educational content for the AI-based educational tool."
 - name: Dr Goran Sladić
   title: Participant 4
-  image: img/item-img1.jpg
+  image: img/people/goran_sladic.jpg
+  linkedin: https://www.linkedin.com/in/goran/
+  researchgate: https://www.researchgate.net/profile/Goran_Sladic
   about: "Has a vast experience in both software engineering and team and project management. As the head of the Chair of Informatics at the Faculty of Technical Sciences, he manages and coordinates the work of sixty people. Through collaboration with industry partners, he has organized the development of several software solutions. Finally, he has led and participated in several scientific projects, including ERASMUS+, EU-TEMPUS, and EU-IPA projects. Because of this experience, his contribution to project management and dissemination activities will ensure that the project completes successfully and with the highest possible quality."
 - name: Katarina-Glorija Grujić
   title: Participant 5
-  image: img/item-img1.jpg
+  image: img/people/katarina_glorija.jpg
+  linkedin: https://www.linkedin.com/in/katarina-glorija-grujic-105788138/
+  researchgate: https://www.researchgate.net/profile/Katarina_Glorija_Grujic
   about: "Just starting her research careers. Her future Ph.D. thesis will concern the application of machine learning to the practical domain of software engineering. During this project, she will finish significant portions of her Ph.D. thesis and fulfill the most critical formal requirements in terms of publishing scientific papers."
 - name: Simona Prokić
   title: Participant 6
-  image: img/item-img1.jpg
+  image: img/people/simona_prokic.jpg
+  linkedin: https://www.linkedin.com/in/simona-proki%C4%87-886233138/
+  researchgate: https://www.researchgate.net/profile/Simona_Prokic
   about: "Just starting her research careers. Her future Ph.D. thesis will concern the application of machine learning to the practical domain of software engineering. During this project, she will finish significant portions of her Ph.D. thesis and fulfill the most critical formal requirements in terms of publishing scientific papers."

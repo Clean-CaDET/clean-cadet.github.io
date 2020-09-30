@@ -126,6 +126,7 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 20px;
+  text-align: center;
 }
 #slider .block p {
   font-size: 23px;
@@ -133,6 +134,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  text-align: center;
 }
 /*--
 	wrapper Start
@@ -279,6 +281,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #testimonial {
   padding: 50px 0;
 }
+
 #testimonial .block h2 {
   line-height: 27px;
   color: #5C5C5C;
@@ -348,6 +351,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   border: 0px;
 }
+
 /*--
 	features Start
 --*/
@@ -419,7 +423,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #portfolio-work p {
   text-align: left;
-  text-indent: 20px;
+  text-indent: 40px;
 }
 
 #portfolio-work .block .portfolio-menu {
@@ -714,7 +718,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 20px;
 }
 .social-icons {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .social-icons li {
   display: inline-block;
@@ -728,6 +732,21 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-right: 25px;
   font-size: 25px;
 }
+
+.researchgate {
+  background: url("../img/custom_icons/researchgate.svg");
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+
+.medium {
+  background: url("../img/custom_icons/medium.svg");
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+
 .google-map {
   position: relative;
 }
@@ -822,4 +841,18 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+/*---------------------------------------------
+					Custom
+-----------------------------------------------*/
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  text-indent: 40px;
 }
