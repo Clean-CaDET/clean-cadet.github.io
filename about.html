@@ -36,7 +36,14 @@ permalink: /about/
                     <p><span><b>{{ p.name }}</b></span> <br> <i>{{ p.title }}</i><p>
                 </div>
                 <p>{{ p.about }}</p>
-                <img src="../img/cotation.png" alt="IMG">
+                <ul class="social-icons">
+                    <li>
+                      <a href="{{ p.linkedin }}"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a href="{{ p.researchgate }}"><i class="researchgate"></i></a>
+                    </li>
+                </ul>
                 <hr/>
             </div>
         {% endfor %}
