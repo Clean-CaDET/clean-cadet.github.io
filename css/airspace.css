@@ -730,6 +730,21 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-right: 25px;
   font-size: 25px;
 }
+
+.researchgate {
+  background: url("../img/custom_icons/researchgate.svg");
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+
+.medium {
+  background: url("../img/custom_icons/medium.svg");
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+
 .google-map {
   position: relative;
 }
