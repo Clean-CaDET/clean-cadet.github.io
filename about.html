@@ -31,12 +31,12 @@ permalink: /about/
     <div class="row">
         {% for p in site.data.people %}
             <div>
-                <div class="user">
+                <div class="user text-center">
                   <img src="../{{ p.image }}" alt="People">
                     <p><span><b>{{ p.name }}</b></span> <br> <i>{{ p.title }}</i><p>
                 </div>
-                <p>{{ p.about }}</p>
-                <ul class="social-icons">
+                <p class="about">{{ p.about }}</p>
+                <ul class="social-icons text-center">
                     <li>
                       <a href="{{ p.linkedin }}"><i class="fa fa-linkedin"></i></a>
                     </li>

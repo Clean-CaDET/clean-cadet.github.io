@@ -423,7 +423,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #portfolio-work p {
   text-align: left;
-  text-indent: 20px;
+  text-indent: 40px;
 }
 
 #portfolio-work .block .portfolio-menu {
@@ -718,7 +718,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 20px;
 }
 .social-icons {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .social-icons li {
   display: inline-block;
@@ -841,4 +841,18 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+/*---------------------------------------------
+					Custom
+-----------------------------------------------*/
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  text-indent: 40px;
 }
