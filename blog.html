@@ -19,10 +19,10 @@ permalink: /blog/
 <div class="container">
   <div class="row">
     {% for post in site.posts %}
-    <div class="post-area">
+    <div class="post-area text-center">
       <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
       <p class="post-date">{{ post.date | date_to_long_string }}</p>
-      <p>
+      <p class="text-justify">
         {{ post.content | strip_html | truncatewords: 50 }}
       </p>
     </div>
