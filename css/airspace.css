@@ -422,8 +422,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #portfolio-work p {
-  text-align: left;
-  text-indent: 40px;
+  text-align: justify;
 }
 
 #portfolio-work .block .portfolio-menu {
@@ -854,5 +853,5 @@ footer .footer-manu ul li a:hover {
 }
 
 .about {
-  text-indent: 40px;
+  text-align: justify;
 }
