@@ -855,3 +855,7 @@ footer .footer-manu ul li a:hover {
 .about {
   text-align: justify;
 }
+
+.listing {
+  margin: 0 0 5px;
+}
