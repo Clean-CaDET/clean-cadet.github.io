@@ -16,7 +16,7 @@
 .owl-carousel{
 	display: none;
 	position: relative;
-	width: 100%;
+	width: 80%;
 	-ms-touch-action: pan-y;
 }
 .owl-carousel .owl-wrapper{
@@ -38,7 +38,9 @@
 }
 	
 .owl-carousel .owl-item{
-	float: left;
+	display: inline-block;
+	float: none;
+	vertical-align: middle;
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
@@ -67,5 +69,6 @@
   -webkit-transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
+	text-align: center;
 }
 
