@@ -27,10 +27,7 @@ $ cd clean-cadet.github.io/
 $ bundle install
 ```
 
-If some errors happen, try this before running the install command:  
-```shell script
-$ sudo gem update --system
-```
+If some errors happen, look for fixes on [Wiki](https://github.com/Clean-CaDET/clean-cadet.github.io/wiki/Errors-during-instalation-of-dependencies).
 
 4. Start Jekyll server:
 ```shell script
@@ -39,3 +36,6 @@ $ bundle exec jekyll serve
 
 Website is alive at [http://127.0.0.1:4000/](http://127.0.0.1:4000/).
 
+## Editing/Updating the website
+
+Tutorial on how to edit or update the website is on [Wiki](https://github.com/Clean-CaDET/clean-cadet.github.io/wiki/Editing-updating-the-website).
