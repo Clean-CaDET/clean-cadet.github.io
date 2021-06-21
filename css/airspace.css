@@ -97,7 +97,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -167,6 +167,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .section-title p {
   padding-top: 20px;
+  font-size: 18px;
 }
 /*--
 	service Start
@@ -187,11 +188,14 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   color: #666;
 }
+#service p {
+  font-size: 18px;
+}
 #service .service-item p {
   color: #888;
   padding-top: 10px;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
 }
 /*--
@@ -225,7 +229,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 30px;
 }
 #call-to-action p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.6;
 }
 #call-to-action .btn-call-to-action {
