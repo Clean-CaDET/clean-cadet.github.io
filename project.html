@@ -22,39 +22,49 @@ permalink: /project/
     <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2 id="project">Initial Idea</h2>
+            <h2 id="project">Principal Idea</h2>
           </div>
         </div>
         <div class="row">
-            <p>The main objective of this project is to lower the cost of software development and increase its overall quality.
-                We address this objective by utilizing artificial intelligence (AI) algorithms to detect code smells in software code.
-                We encapsulate the AI algorithms in a usable open-source tool, to support software developers in their work and help them discover unclean code as they write it.
-                We supplement the detection mechanism with educational resources to help the developer understand the nature of the smell and the best way to resolve it.
-                Finally, we enhance the tool with an AI-based tutoring system, to offer personalized advice and educational material to the developer and ensure their efficient learning.
-                We call the proposed tool the Clean Code and Design Educational Tool (Clean CaDET), available on <b><a href="https://github.com/Clean-CaDET/platform#readme" target="_blank">GitHub</a></b>. For Clean CaDET to effectively fulfill the main objective of the project, multiple sub-objectives need to be reached, each tackling a specific research problem:</p>
-
-                <ol>
-                    <li><p class="listing">Develop a set of automatic AI-based code smell detection techniques, addressing the most widespread and severe code smells.</p></li>
-                    <li><p class="listing">Collect a novel dataset of software artifacts for training AI-based code smell detection algorithms.</p></li>
-                    <li><p class="listing">Develop an AI-based educational system for delivering personalized multimedia to the learner, detailing the nature and impact of the smell, as well as the recommended refactoring solution.</p></li>
-                    <li><p class="listing">Develop a usable open-source tool, integrating the developed detection techniques and educational system, to offer automatic smell detection on custom code and learning material recommendation.</p></li>
-                </ol>
-
-            <p>The purpose of Clean CaDET is to automatically detect code smells in the developer’s code and offer personalized advice on how best to deal with the detected smells, thus training the developer to write code of higher quality.
-                Figure below displays the conceptual vision of Clean CaDET and represents a communication diagram illustrating the interaction between the major modules of the tool and the software developer.</p>
+            <p>
+              The main objective of this project is to lower the cost of software development and increase its overall quality.
+              We work towards this objective by creating an artificial intelligence (AI) digital assistant that helps the programmer write higher-quality code.
+              The following image illustrates this process and outlines the primary use case of our Clean Code and Design Educational Tool (Clean CaDET).
+            </p>
             <br>
+            <img width="80%" src="{{ site.baseurl }}/img/rsz_ccadet_model.png" alt="Clean CaDET conceptual overview" class="center-img">
             <br>
-            <img src="{{ site.baseurl }}/img/rsz_ccadet_model.png" alt="Clean CaDET conceptual overview" class="center-img">
-            <br>
-            <br>
-            <p>The Developer uses their integrated development environment (IDE) to write code (1) for their software solution.
-                The Clean CaDET Plugin (C2Plugin) processes the code and sends its representation (2) to the remote Clean CaDET Application (C2Application).
-                The Clean Code Analyzer module executes a series of AI-based smell detection techniques to detect different code smells in the developed code.
-                The Clean Code Analyzer also contains a dataset of software artifacts, used to train the AI-based smell detection techniques.
-                Then, the Analyzer sends the discovered code smells (3) to the Smart Tutor module.
-                This module represents an AI-based educational system that personalizes the learning experience using a recommender system.
-                It selects the most suitable content (e.g., text, illustration, video) from the repository of educational material to facilitate the Developer’s learning.
-                Once selected, Clean CaDET returns the educational multimedia (4) to the C2Plugin, which displays the information to the Developer (5).</p>
+            <p>
+              The above image outlines the four steps of Clean CaDET's primary use case:
+              <ol>
+                <li>
+                  The developer uses their integrated development environment (IDE) to write code for their software solution.
+                  When they wish to analyze their code's quality they use the Clean CaDET Plugin to send their code to the platform.
+                </li>
+                <li>
+                  The Code Quality Evaluator maintains AI models for code smell detection.
+                  The arriving code is transformed into suitable representations and is sent to machine learning classifiers and heuristics with the goal of identifying quality issues.
+                </li>
+                <li>
+                  Any identified issues arrive at the Smart Tutor module that hosts educational content and a learner profile of the developer.
+                  The Tutor selects learning objects that are suitable for the developer, based on their personality traits and learning preferences.
+                </li>
+                <li>
+                  The platform returns the identified issues and the personalized educational content to the plugin, which displays the information to the developer.
+                  The developer examines the issues, learns to resolve them, and improves their software development expertise.
+                </li>
+              </ol>
+            </p>
+        </div>
+        <div class="row">
+          <div class="section-title">
+            <h2 id="project-dev">Project Development</h2>
+          </div>
+        </div>
+        <div class="row">
+          <p style="font-size: 18px;">
+            We maintain <strong><a href="https://github.com/Clean-CaDET/platform#readme" target="_blank">an open-source repository</a></strong> that hosts our platform and it's ever-increasing set of capabilities.
+          </p>
         </div>
     </div>
 </section>
