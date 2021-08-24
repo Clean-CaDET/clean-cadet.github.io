@@ -22,7 +22,7 @@ permalink: /results/
     <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2 style="text-align: center;">Project Development</h2>
+            <h2 style="text-align: center;">Platform Development</h2>
           </div>
         </div>
         <div class="row">
@@ -47,6 +47,33 @@ permalink: /results/
           </p>
           <p>
             <b>Abstract</b>: Many different code snippets can implement the same software feature. However, a significant subset of these possible solutions contains difficult-to-understand code that harms the software’s maintainability and evolution. Such low-quality code snippets directly harm profit, as frequent and fast code change enables businesses to seize new opportunities. Unfortunately, they are also prevalent in an industry that consists mostly of junior programmers.<br>We developed a platform called Clean CaDET to tackle the prevalence of low-quality code from two angles. The Smell Detector module presents a framework for integrating AI-based code quality assessment algorithms to identify low-quality code as the programmer is writing it. The Smart Tutor module hosts a catalog of educational content that helps the programmer understand the identified issue and suggests possible solutions. By combining the quality assessment with the educational aspect, our integrated solution presents a novel approach for increasing the quality of code produced by our industry.
+          </p>
+        </div>
+        <div class="row">
+          <h3>
+            Towards a systematic approach to manual annotation of code smells
+          </h3>
+          <p>
+            <i>Luburić, N., Prokić, S., Grujić, K.G., Slivka, J., Kovačević, A., Sladić, G., Vidaković, D., 2021. Submitted to journal for consideration.</i>
+          </p>
+          <p>
+            <b>Abstract</b>: Code smells are structures in code that indicate the presence of maintainability issues. A significant problem with code smells is their ambiguity. They are challenging to define, and software engineers have a different understanding of what a code smell is and which code suffers from code smells.
+<br>A solution to this problem could be an AI digital assistant that understands code smells and can detect and even resolve them. However, it is challenging to develop such an assistant as there are few usable datasets of code smells on which to train and evaluate it. Furthermore, the existing datasets suffer from issues that mainly arise from an unsystematic approach used for their construction.
+<br>Through this work, we address this issue by developing a procedure for the systematic manual annotation of code smells. We use this procedure to build a dataset of code smells. During this process, we refine the procedure and identify recommendations and risks for its use. The primary contribution is the proposed annotation model and procedure and the annotators’ experience report. The dataset and supporting tool are secondary contributions of our study. Notably, our dataset includes open-source projects written in the C# programming language, while almost all manually annotated datasets contain projects written in Java.
+          </p>
+        </div>
+        <div class="row">
+          <h3>
+            Automatic detection of Long Method and God Class code smells through neural source code embeddings
+          </h3>
+          <p>
+            <i>Kovačević, A., Slivka, J., Vidaković, D., Grujić, K.G., Luburić, N., Prokić, S., Sladić, G., 2021. Submitted to journal for consideration.</i>
+          </p>
+          <p>
+            <b>Abstract</b>: Code smells are structures in code that often have a negative impact on its quality. Manually detecting code smells is challenging and researchers proposed many automatic code smell detectors. Most of the studies propose detectors based on code metrics and heuristics. However, these studies have several limitations, including evaluating the detectors using small-scale case studies and an inconsistent experimental setting. Furthermore, heuristic-based detectors suffer from limitations that hinder their adoption in practice. Thus, researchers have recently started experimenting with machine learning (ML) based code smell detection. 
+<br>This paper compares the performance of multiple ML-based code smell detection models against multiple traditionally employed metric-based heuristics for detection of God Class and Long Method code smells. We evaluate the effectiveness of different source code representations for machine learning: traditionally used code metrics and code embeddings (code2vec, code2seq, and CuBERT).
+<br>We perform our experiments on the large-scale, manually labeled MLCQ dataset. We consider the binary classification problem – we classify the code samples as smelly or non-smelly and use the F1-measure of the minority (smell) class as a measure of performance. In our experiments, the ML classifier trained using CuBERT source code embeddings achieved the best performance for both God Class (F-measure of 0.53) and Long Method detection (F-measure of 0.75). With the help of a domain expert, we perform the error analysis to discuss the advantages of the CuBERT approach.
+<br>This study is the first to evaluate the effectiveness of pre-trained neural source code embeddings for code smell detection to the best of our knowledge. A secondary contribution of our study is the systematic evaluation of the effectiveness of multiple heuristic-based approaches on the same large-scale, manually labeled MLCQ dataset.
           </p>
         </div>
     </div>
