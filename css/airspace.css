@@ -175,7 +175,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #service {
   text-align: center;
-  padding: 50px 0;
+  padding: 0 0 50px 0;
 }
 #service .service-item {
   padding-bottom: 30px;
@@ -206,7 +206,6 @@ font header .navbar-default .navbar-nav li a:hover {
   /*background: url("../img/call-to-action-bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;*/
-  padding: 70px 0px;
   position: relative;
   text-align: center;
   /*color: #fff;*/
