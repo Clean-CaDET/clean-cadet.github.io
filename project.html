@@ -37,7 +37,20 @@ permalink: /results/
             The Clean Code and Design Educational Tool (Clean CaDET) is a platform dedicated to the study of clean code. It presents a conglomerate of AI-powered tools for educators, learners, practitioners, and researchers studying clean code.
           </p>
           <p>
-            We maintain <strong><a href="https://github.com/Clean-CaDET/platform#readme" target="_blank">an open-source repository</a></strong> that hosts our platform and it's ever-increasing set of capabilities.
+            We maintain several open-source repositories that host our platform and it's ever increasing set of capabilities:
+            <ul>
+                <li>
+                    The <strong><a href="https://github.com/Clean-CaDET/platform#readme" target="_blank">main platform repository</a></strong> contains several projects:
+                    <ul>
+                        <li>The <a href="https://github.com/Clean-CaDET/platform/wiki/Module-Code-Model" target="_blank">code model project</a> that parses C# code into an object model that is easier to analyze.</li>
+                        <li>The <a href="https://github.com/Clean-CaDET/platform/wiki/Module-Smell-Detector" target="_blank">smell detector project</a> that hosts rules for code smell detection and adapters for smell detection machine learning models.</li>
+                        <li>The <a href="https://github.com/Clean-CaDET/platform/wiki/Module-Dataset-Explorer" target="_blank">dataset explorer project</a> that has grown into a sophisticated application for analyzing code repositories and annotating smells. This project will soon be moved to a separate repository.</li>
+                    </ul>
+                </li>
+                <li>The <strong><a href="https://github.com/Clean-CaDET/tutor#readme" target="_blank">tutor repository</a></strong>, which hosts the intelligent tutoring system specialized for the clean code domain.</li>
+                <li>The <strong><a href="https://github.com/Clean-CaDET/platform-tutor-ui-web#readme" target="_blank">tutor front-end repository</a></strong>, which contains the client web application for interacting with the intelligent tutoring system.</li>
+                <li>The <strong><a href="https://github.com/Clean-CaDET/platform-explorer-ui-web#readme" target="_blank">dataset explorer front-end repository</a></strong>, which contains the client web application for interacting with the dataset explorer.</li>
+            </ul>
           </p>
         </div>
         <div class="row">
@@ -92,6 +105,29 @@ permalink: /results/
 <br>This paper compares the performance of multiple ML-based code smell detection models against multiple traditionally employed metric-based heuristics for detection of God Class and Long Method code smells. We evaluate the effectiveness of different source code representations for machine learning: traditionally used code metrics and code embeddings (code2vec, code2seq, and CuBERT).
 <br>We perform our experiments on the large-scale, manually labeled MLCQ dataset. We consider the binary classification problem – we classify the code samples as smelly or non-smelly and use the F1-measure of the minority (smell) class as a measure of performance. In our experiments, the ML classifier trained using CuBERT source code embeddings achieved the best performance for both God Class (F-measure of 0.53) and Long Method detection (F-measure of 0.75). With the help of a domain expert, we perform the error analysis to discuss the advantages of the CuBERT approach.
 <br>This study is the first to evaluate the effectiveness of pre-trained neural source code embeddings for code smell detection to the best of our knowledge. A secondary contribution of our study is the systematic evaluation of the effectiveness of multiple heuristic-based approaches on the same large-scale, manually labeled MLCQ dataset.
+          </p>
+        </div>
+        <div class="row">
+          <h3>
+            Clean Code Tutoring: Makings of a Foundation
+          </h3>
+          <p>
+            <i>Luburić, N., Vidaković, D., Slivka, J., Prokić, S., Grujić, K.G., Kovačević, A., Sladić, G., 2022. Accepted at CSEDU 2022 conference.</i>
+          </p>
+          <p>
+            <b>Abstract</b>: High-quality code enables sustainable software development, which is a prerequisite of a healthy digital society. To train software engineers to write higher-quality code, we developed an intelligent tutoring system (ITS) grounded in recent advances in ITS design. Its hallmark feature is the refactoring challenge subsystem, which enables engineers to develop procedural knowledge for analyzing code quality and improving it through refactoring. We conducted a focus group discussion with five working software engineers to get feedback for our system. We further conducted a controlled experiment with 51 software engineering learners, where we compared learning outcomes from using our ITS with educational pages offered by a learning management system. We examined the correctness of knowledge, level of knowledge retention after one week, and the learners’ perceived engagement. We found no statistically significant difference between the two groups, establishing that our system does not lead to worse learning outcomes. Additionally, instructors can analyze challenge submissions to identify common incorrect coding patterns and unexpected correct solutions to improve the challenges and related hints. We discuss how our instructors benefited from the challenge subsystem, shed light on the need for a specialized ITS design grounded in contemporary theory, and examine the broader educational potential.
+          </p>
+        </div>
+        <div class="row">
+          <h3>
+            Challenges of Knowledge Component Modeling: A Software Engineering Case Study
+          </h3>
+          <p>
+            <i>	Nikola Luburić, Balša Šarenac, Luka Dorić, Dragan Vidaković, Katarina-Glorija Grujić, Aleksandar Kovačević, Simona Prokić, 2022. Submitted as a conference paper.</i>
+          </p>
+          <p>
+            <b>Abstract</b>: To improve instruction, educators require greater visibility into the learning gains of individual students and the ability to adapt to resolve any learning gaps. A prerequisite to achieving such instruction is decomposing knowledge into small components that function as gradual steps for the learner’s journey. However, decomposing a knowledge domain is not trivial, as instructors must overcome many practical challenges along the way.
+<br>We report on our experience of knowledge component modeling for the clean code analysis and refactoring domain. We describe our method and list four challenges encountered during modeling and our solution for them. The resulting knowledge component inventory is a secondary contribution of the paper. These results can assist educators in planning and executing knowledge component modeling to refine their instruction and produce more significant learning gains in their students.
           </p>
         </div>
         <div class="row">
@@ -209,7 +245,7 @@ permalink: /results/
             <i>Mentor: Nikola Luburić</i>
           </p>
           <p>
-            <b>Short abstract</b>: This paper presents the the communication infrastructure of a platform for learning clean code. Performance analysis was conducted on projects of various size. The structure and behavior of the message exchange is described in detail.
+            <b>Short abstract</b>: This paper presents the communication infrastructure of a platform for learning clean code. Performance analysis was conducted on projects of various size. The structure and behavior of the message exchange is described in detail.
           </p>
             
           <h4>
@@ -254,6 +290,28 @@ permalink: /results/
           </p>
           <p>
             <b>Short abstract</b>: The paper presents a heuristic-based approach for the Long Method code smell detection. In the approach, each method is segmented into logical blocks. The blocks similarity is used to decide whether they should be a part of the same method.
+          </p>
+            
+          <h4>
+            12. Client web application that interacts with a platform for learning clean code
+          </h4>
+          <p>
+            <i>Candidate: Nikola Pantelić</i><br>
+            <i>Mentor: Nikola Luburić</i>
+          </p>
+          <p>
+            <b>Short abstract</b>: This paper presents the design and implementation of a client web application built using the Angular framework, which interacts with the clean code intelligent tutoring system.
+          </p>
+            
+          <h4>
+            13. Parsing Java source code into an object graph with calculated metrics
+          </h4>
+          <p>
+            <i>Candidate: Nikola Gudelj</i><br>
+            <i>Mentor: Nikola Luburić</i>
+          </p>
+          <p>
+            <b>Short abstract</b>: This paper presents the design and implementation of a Java code parser which transforms Java source code into the CaDET model.
           </p>
         </div>
     </div>
